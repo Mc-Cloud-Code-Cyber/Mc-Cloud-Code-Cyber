@@ -4,7 +4,7 @@
 
 </p>
 
-<h1><br/><a href="https://www.linkedin.com/in/javonmccloud/">Javon McCloud</a>, Code, Cloud and Cyber Project Portfolio🔐</h1> 
+<h1><br/><a href="https://www.linkedin.com/in/javonmccloud/">Javon McCloud</a>, Code, and Cyber Project Portfolio🔐</h1> 
 
 This portfolio highlights hands-on work across **Data Protection, Vulnerability Management, SOC Operations, Threat Hunting,** and **Cloud/IT Security**. Each section links to personal projects that reflect my ability to investigate threats, strengthen defenses, and apply security best practices in a professional environment. Thank you for taking the time to visit my portfolio and allowing me to showcase my work.
 
