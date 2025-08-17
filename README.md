@@ -71,6 +71,6 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 -->
 
 ---
-
+## Misc
 
 ```markdown
