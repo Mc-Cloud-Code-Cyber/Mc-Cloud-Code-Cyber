@@ -18,7 +18,7 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 - [Cloud & IT Security Labs](#-cloud--it-security-labs)
 - [Skills, Tools & Certs](#-skills-tools--certs)
 - [Connect With Me](#-connect-with-me)
-
+- [Misc](#-misc)
 ---
 
 ## 🧰 Data Loss Prevention (DLP) Projects
