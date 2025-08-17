@@ -72,5 +72,5 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 
 ---
 ## Misc
-
+- **[Remediation Email Vulner. Lab](https://github.com/Mc-Cloud-Code-Cyber/Mc-Cloud-Code-Cyber/blob/main/remediation%20email)**
 ```markdown
