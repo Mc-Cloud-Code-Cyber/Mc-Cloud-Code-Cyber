@@ -1,6 +1,6 @@
 <!-- Optional banner (replace the URL with your own image) -->
 <p align="center">
-<img width="336" height="224" alt="09e06e93-02e0-49e5-9daa-c5da9fb6fa89" src="https://github.com/user-attachments/assets/f02c93a7-a246-4bf4-beec-37d6cb2c8e8c" />
+<img width="236" height="124" alt="09e06e93-02e0-49e5-9daa-c5da9fb6fa89" src="https://github.com/user-attachments/assets/f02c93a7-a246-4bf4-beec-37d6cb2c8e8c" />
 
 </p>
 
