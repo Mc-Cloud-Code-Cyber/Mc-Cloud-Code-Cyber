@@ -11,17 +11,19 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 ---
 
 ## 📚 Table of Contents
-- [Data Loss Prevention (DLP) Projects(In Progress)](#-data-loss-prevention-dlp-projects)
+<!-- - [Data Loss Prevention (DLP) Projects](#-data-loss-prevention-dlp-projects)
 - [Vulnerability Management Projects](#-vulnerability-management-projects)
-- [Security Operations Projects(In Progress)](#-security-operations-projects)
-- [Threat Hunting Projects(In Progress)](#-threat-hunting-projects)
-- [Cloud & IT Security Labs(In Progress)](#-cloud--it-security-labs)
+- [Security Operations Projects](#-security-operations-projects)
+- [Threat Hunting Projects](#-threat-hunting-projects)
+- [Cloud & IT Security Labs](#-cloud--it-security-labs) -->
+- [Threat Hunting Projects](#-threat-hunting-projects)
+- [Vulnerability Management Projects](#-vulnerability-management-projects)
 - [Skills, Tools & Certs](#-skills-tools--certs)
 - [Connect With Me](#-connect-with-me)
 - [Misc](#-misc)
 ---
 
-## 🧰 Data Loss Prevention (DLP) Projects
+<!-- ## 🧰 Data Loss Prevention (DLP) Projects (Coming Soon) -->
 
 
 ---
@@ -32,7 +34,7 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 
 ---
 
-## 🛡️ Security Operations Projects
+<!-- ## 🛡️ Security Operations Projects -->
 
 
 ---
@@ -42,7 +44,7 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 
 ---
 
-## ☁️ Cloud & IT Security Labs
+<!-- ## ☁️ Cloud & IT Security Labs -->
  
 
 ---
