@@ -49,9 +49,9 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 
 ---
 
-## 🧪 Skills, Tools & Certs
+# 🧪 Skills, Tools & Certs
 
-# 🔍 SIEM & Monitoring  
+## 🔍 SIEM & Monitoring  
 - ![Splunk](https://img.shields.io/badge/-Splunk-000?logo=splunk) Log analysis, query building, detection rules  
 - ![Security Onion](https://img.shields.io/badge/-Security%20Onion-2b5797) IDS/NSM lab environment  
 - ![Sysmon](https://img.shields.io/badge/-Sysmon-4caf50) Windows event logging  
