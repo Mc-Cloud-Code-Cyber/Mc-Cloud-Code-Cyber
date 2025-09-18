@@ -87,11 +87,11 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 ## 🛠️ Scripting & Automation  
 - ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnu-bash) Log parsing, automation
 
-**Certs:**  
-CompTIA **Security+** ([https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090](https://www.credly.com/badges/6c6b938a-29b1-4d2c-ab53-b75671a3576f))  
-CompTIA **CySA+** (https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
-CompTIA **CSAP** (https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)  
+# 📜 Certifications  
 
+- [![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-EE0000?logo=comptia&logoColor=white)](https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
+- [![CompTIA CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-004D99?logo=comptia&logoColor=white)](https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
+- [![CompTIA CSAP](https://img.shields.io/badge/CompTIA-CSAP-2b5797?logo=comptia&logoColor=white)](https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)  
 ---
 
 ## 🤝 Connect With Me
