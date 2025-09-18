@@ -50,11 +50,11 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 ---
 
 ## 🧪 Skills, Tools & Certs
-**Core:**
-**Tools:** 
-**Certs:** CompTIA **Security+** ([https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090](https://www.credly.com/badges/6c6b938a-29b1-4d2c-ab53-b75671a3576f)) • 
-**CySA+** (https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)
-**CSAP** (https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)
+**Core:**  
+**Tools:**  
+**Certs:** CompTIA **Security+** ([https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090](https://www.credly.com/badges/6c6b938a-29b1-4d2c-ab53-b75671a3576f))  
+**CySA+** (https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
+**CSAP** (https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)  
 
 ---
 
