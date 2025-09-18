@@ -50,11 +50,47 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 ---
 
 ## 🧪 Skills, Tools & Certs
-**Core:**  
-**Tools:**  
-**Certs:** CompTIA **Security+** ([https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090](https://www.credly.com/badges/6c6b938a-29b1-4d2c-ab53-b75671a3576f))  
-**CySA+** (https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
-**CSAP** (https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)  
+
+## 🔍 SIEM & Monitoring  
+- ![Splunk](https://img.shields.io/badge/-Splunk-000?logo=splunk) Log analysis, query building, detection rules  
+- ![Security Onion](https://img.shields.io/badge/-Security%20Onion-2b5797) IDS/NSM lab environment  
+- ![Sysmon](https://img.shields.io/badge/-Sysmon-4caf50) Windows event logging  
+
+## 📊 Vulnerability Management  
+- ![Tenable](https://img.shields.io/badge/-Tenable%20%7C%20Nessus-004d99) Authenticated scans, remediation validation  
+- ![OpenVAS](https://img.shields.io/badge/-OpenVAS-009639) Open-source vuln scanning  
+- Compliance & Benchmarking: **CIS Controls, DISA STIGs**  
+
+## 🚨 Detection & Response  
+- Snort / Suricata – network IDS concepts, rule writing  
+- EDR basics  
+- SOC Analyst workflow – triage, escalation, PBQ-style analysis  
+
+## 🖥️ Platforms & Virtualization  
+- ![VirtualBox](https://img.shields.io/badge/-VirtualBox-183A61?logo=virtualbox) Home lab, multi-VM networking  
+- ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux) Ubuntu, Kali – log parsing, scripting, network tools  
+- ![Windows](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows) GPO, registry, hardening  
+
+## ⚙️ Networking & Protocols  
+- Core: TCP/IP, Subnetting, VLANs, ACLs  
+- Services: DNS, DHCP, FTP, LDAP, RDP  
+- Protocols: ARP, ICMP, BGP  
+- Tools: **Wireshark / tcpdump** for packet analysis  
+
+## 🔐 Security Concepts & Frameworks  
+- Zero Trust, Network Segmentation  
+- CASB, SASE, SDN  
+- PKI & Certificates: SSL/TLS, DKIM, SPF, DMARC  
+- Incident Response: MTTD/MTTR, playbooks  
+- Frameworks: **NIST CSF, COBIT, OSSTMM, OWASP Top 10**  
+
+## 🛠️ Scripting & Automation  
+- ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnu-bash) Log parsing, automation
+
+**Certs:**  
+CompTIA **Security+** ([https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090](https://www.credly.com/badges/6c6b938a-29b1-4d2c-ab53-b75671a3576f))  
+CompTIA **CySA+** (https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
+CompTIA **CSAP** (https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)  
 
 ---
 
