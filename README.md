@@ -25,8 +25,8 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 ---
 
 <!-- ## 🧰 Data Loss Prevention (DLP) Projects (Coming Soon) -->
-##  SOC Blue Team Resources
-- **[SOC Blue Team](https://github.com/Mc-Cloud-Code-Cyber/soc-blue-team)**
+##  SOC Blue Team
+- **[SOC Blue Team Resources](https://github.com/Mc-Cloud-Code-Cyber/soc-blue-team)**
 
 ---
 
