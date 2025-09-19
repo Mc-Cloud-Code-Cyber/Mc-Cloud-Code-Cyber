@@ -16,10 +16,11 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 - [Security Operations Projects](#-security-operations-projects)
 - [Threat Hunting Projects](#-threat-hunting-projects)
 - [Cloud & IT Security Labs](#-cloud--it-security-labs) -->
+- [SOC Blue Team Runbooks](#-SOC-Blue-Team-Runbooks)
 - [Threat Hunting Projects](#-threat-hunting-projects)
 - [Vulnerability Management Projects](#-vulnerability-management-projects)
 - [Skills, Tools & Certs](#-skills-tools--certs)
-- [Connect With Me](#-connect-with-me)
+  <!--- [Connect With Me](#-connect-with-me)
 - [Misc](#-misc)
 ---
 
@@ -94,7 +95,7 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 - [![CompTIA CSAP](https://img.shields.io/badge/CompTIA-CSAP-2b5797?logo=comptia&logoColor=white)](https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)  
 ---
 
-## 🤝 Connect With Me
+<!-- ## 🤝 Connect With Me
 
 
 [<img align="left" alt="___________ | Twitter" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]  
