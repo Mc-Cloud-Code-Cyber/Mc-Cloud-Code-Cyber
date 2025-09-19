@@ -1,0 +1,157 @@
+<#
+.SYNOPSIS
+    Remediate WN10-AC-000005: Set Account Lockout Duration (minutes) >= 15 (or 0 = admin unlock)
+
+.NOTES
+    Author          : Javon McCloud
+    LinkedIn        : linkedin.com/in/jjavonmccloud/
+    GitHub          : github.com/Mc-Cloud-Code-Cyber
+    Date Created    : 2025-09-19
+    Last Modified   : 2025-09-19
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-AC-000005
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+#>
+
+# <# 
+.SYNOPSIS
+  Remediate WN10-AC-000005: Set Account Lockout Duration (minutes) >= 15 (or 0 = admin unlock).
+
+.PARAMETER Minutes
+  Desired lockout duration in minutes. Default: 15. 
+  STIG allows 0 (admin must unlock) as a more restrictive alternative.
+
+.PARAMETER Domain
+  Apply to the AD domain default password policy (requires RSAT & appropriate rights).
+  If omitted, applies to the local machine policy.
+
+.PARAMETER WhatIf / -Verbose
+  Standard PowerShell semantics.
+
+.EXAMPLES
+  .\Set-WN10-AC-000005.ps1
+  .\Set-WN10-AC-000005.ps1 -Minutes 15
+  .\Set-WN10-AC-000005.ps1 -Minutes 0                # admin-unlock model (allowed)
+  .\Set-WN10-AC-000005.ps1 -Domain -Minutes 15       # domain default policy (DC/RSAT + rights)
+#>
+
+[CmdletBinding(SupportsShouldProcess=$true)]
+param(
+    [ValidateRange(0, 9999)]
+    [int]$Minutes = 15,
+    [switch]$Domain
+)
+
+function Test-DomainJoined {
+    try {
+        $cs = Get-CimInstance -ClassName Win32_ComputerSystem -ErrorAction Stop
+        return ($cs.PartOfDomain -eq $true)
+    } catch {
+        Write-Verbose "Could not determine domain state: $_"
+        return $false
+    }
+}
+
+function Get-LocalLockoutDuration {
+    # Parse `net accounts` output for current lockout duration
+    $out = net accounts
+    $line = ($out | Where-Object { $_ -match 'Lockout duration' })
+    if ($line -match '(\d+)\s+minutes?') {
+        return [int]$Matches[1]
+    }
+    elseif ($line -match 'forever' -or $line -match '0 minutes') {
+        return 0
+    }
+    else {
+        return $null
+    }
+}
+
+function Set-LocalLockoutDuration {
+    param([int]$Minutes)
+
+    if ($PSCmdlet.ShouldProcess("Local machine", "Set lockout duration to $Minutes minutes")) {
+        $cmd = "net accounts /lockoutduration:$Minutes"
+        Write-Verbose "Running: $cmd"
+        cmd.exe /c $cmd | Out-Null
+    }
+}
+
+function Ensure-AdModule {
+    if (-not (Get-Module -ListAvailable -Name ActiveDirectory)) {
+        throw "ActiveDirectory module not found. Install RSAT or run on a DC."
+    }
+    Import-Module ActiveDirectory -ErrorAction Stop | Out-Null
+}
+
+function Get-DomainPolicyDuration {
+    Ensure-AdModule
+    $pol = Get-ADDefaultDomainPasswordPolicy
+    return [int][Math]::Round($pol.LockoutDuration.TotalMinutes)
+}
+
+function Set-DomainPolicyDuration {
+    param([int]$Minutes)
+    Ensure-AdModule
+    $ts = New-TimeSpan -Minutes $Minutes
+    if ($PSCmdlet.ShouldProcess("Domain Default Policy", "Set lockout duration to $Minutes minutes")) {
+        Set-ADDefaultDomainPasswordPolicy -LockoutDuration $ts -ErrorAction Stop
+    }
+}
+
+# -------- Main --------
+try {
+    $isDomainJoined = Test-DomainJoined
+    if ($Domain) {
+        if (-not $isDomainJoined) {
+            throw "This system is not domain-joined. Use local mode (omit -Domain) or run on a domain member with RSAT."
+        }
+
+        $current = Get-DomainPolicyDuration
+        Write-Verbose "Current domain lockout duration: $current min"
+        if ($current -ne $Minutes) {
+            Set-DomainPolicyDuration -Minutes $Minutes
+        }
+        $verify = Get-DomainPolicyDuration
+        $status = if ($verify -eq $Minutes) { "Compliant" } else { "Noncompliant" }
+        [pscustomobject]@{
+            Scope        = "Domain Default Policy"
+            DesiredMins  = $Minutes
+            EffectiveMins= $verify
+            Result       = $status
+            Timestamp    = (Get-Date).ToString("s")
+        }
+    }
+    else {
+        $current = Get-LocalLockoutDuration
+        Write-Verbose "Current local lockout duration: $current min"
+        if ($null -eq $current -or $current -ne $Minutes) {
+            Set-LocalLockoutDuration -Minutes $Minutes
+        }
+        $verify = Get-LocalLockoutDuration
+        $status = if ($verify -eq $Minutes) { "Compliant" } else { "Noncompliant" }
+        [pscustomobject]@{
+            Scope        = "Local Policy"
+            DesiredMins  = $Minutes
+            EffectiveMins= $verify
+            Result       = $status
+            Timestamp    = (Get-Date).ToString("s")
+        }
+    }
+}
+catch {
+    Write-Error $_
+    exit 1
+}
