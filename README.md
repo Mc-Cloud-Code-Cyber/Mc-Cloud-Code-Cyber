@@ -32,6 +32,7 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 
 ## ⚠️ Vulnerability Management Projects
 - **[Vulnerability Management Program Implementation](https://github.com/Mc-Cloud-Code-Cyber/vulnerability-management-program)**
+- **[Vulnerability Remediations and STIGS](https://github.com/Mc-Cloud-Code-Cyber/vulnerability-remediations-STIGS)**
 <!-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/Mc-Cloud-Code-Cyber/)**-->
 
 ---
