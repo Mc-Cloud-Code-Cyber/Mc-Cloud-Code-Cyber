@@ -42,7 +42,7 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 ---
 
 ##  SOC Blue Team
-- **[Blue Team Resources](https://github.com/Mc-Cloud-Code-Cyber/soc-blue-team)
+- **[Blue Team Resources](https://github.com/Mc-Cloud-Code-Cyber/soc-blue-team)**
 
 <!-- ## ☁️ Cloud & IT Security Labs -->
  
