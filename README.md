@@ -36,11 +36,6 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 
 ---
 
-<!-- ## 🛡️ Security Operations Projects -->
-
-
----
-
 ## 🕵🏾 Threat Hunting Projects
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Mc-Cloud-Code-Cyber/threat-hunting-scenario-tor)**
 
