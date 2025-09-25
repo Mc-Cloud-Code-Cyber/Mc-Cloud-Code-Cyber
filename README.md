@@ -10,20 +10,6 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 
 ---
 
-## 📚 Table of Contents
-<!-- - [Data Loss Prevention (DLP) Projects](#-data-loss-prevention-dlp-projects)
-- [Vulnerability Management Projects](#-vulnerability-management-projects)
-- [Security Program Managment](#-security-operations-projects)
-- [Threat Hunting Projects](#-threat-hunting-projects)
-- [Cloud & IT Security Labs](#-cloud--it-security-labs) -->
-- [SOC Blue Team](#-SOC-Blue-Team)
-- [Threat Hunting Projects](#-threat-hunting-projects)
-- [Vulnerability Management Projects](#-vulnerability-management-projects)
-- [Skills, Tools & Certs](#-skills-tools--certs)
-  <!--- [Connect With Me](#-connect-with-me)
-- [Misc](#-misc)
----
-
 <!-- ## 🧰 Data Loss Prevention (DLP) Projects (Coming Soon) -->
 
 ## 🛡️ Security Program Managment
