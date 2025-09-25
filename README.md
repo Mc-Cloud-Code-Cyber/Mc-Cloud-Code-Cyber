@@ -28,6 +28,8 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 - **[Governance, Risk and Compliance](https://github.com/Mc-Cloud-Code-Cyber/Governance-Risk-and-Compliance)**
 
 <!-- ## 🧰 Data Loss Prevention (DLP) Projects (Coming Soon) -->
+## 🛡️ Security Program Managment
+- **[Governance, Risk and Compliance](https://github.com/Mc-Cloud-Code-Cyber/Governance-Risk-and-Compliance)**
 
 ## ⚠️ Vulnerability Management Projects
 - **[Vulnerability Management Program Implementation](https://github.com/Mc-Cloud-Code-Cyber/vulnerability-management-program)**
