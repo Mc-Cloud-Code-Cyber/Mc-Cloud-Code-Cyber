@@ -13,7 +13,7 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 ## 📚 Table of Contents
 <!-- - [Data Loss Prevention (DLP) Projects](#-data-loss-prevention-dlp-projects)
 - [Vulnerability Management Projects](#-vulnerability-management-projects)
-- [Security Operations Projects](#-security-operations-projects)
+- [Security Program Managment](#-security-operations-projects)
 - [Threat Hunting Projects](#-threat-hunting-projects)
 - [Cloud & IT Security Labs](#-cloud--it-security-labs) -->
 - [SOC Blue Team](#-SOC-Blue-Team)
@@ -23,12 +23,10 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
   <!--- [Connect With Me](#-connect-with-me)
 - [Misc](#-misc)
 ---
+## 🛡️ Security Program Managment
+- **[Governance, Risk and Compliance](https://github.com/Mc-Cloud-Code-Cyber/Governance-Risk-and-Compliance)**
 
 <!-- ## 🧰 Data Loss Prevention (DLP) Projects (Coming Soon) -->
-##  SOC Blue Team
-- **[SOC Blue Team Resources](https://github.com/Mc-Cloud-Code-Cyber/soc-blue-team)**
-
----
 
 ## ⚠️ Vulnerability Management Projects
 - **[Vulnerability Management Program Implementation](https://github.com/Mc-Cloud-Code-Cyber/vulnerability-management-program)**
@@ -46,6 +44,9 @@ This portfolio highlights hands-on work across **Data Protection, Vulnerability 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Mc-Cloud-Code-Cyber/threat-hunting-scenario-tor)**
 
 ---
+
+##  SOC Blue Team
+- **[Blue Team Resources](https://github.com/Mc-Cloud-Code-Cyber/soc-blue-team)
 
 <!-- ## ☁️ Cloud & IT Security Labs -->
  
