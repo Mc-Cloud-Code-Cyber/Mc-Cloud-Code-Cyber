@@ -1,6 +1,6 @@
 # 👋🏽 Hi, I'm **Javon McCloud**
 
-### 🛡️ Cybersecurity Engineer | Threat Analyst | SOC Automation Enthusiast | Governance, Risk and Cmpliance
+### 🛡️ Cybersecurity Engineer | Threat Analyst | SOC Automation Enthusiast | Governance, Risk and Compliance
 
 I’m a **Security & Threat Analyst** passionate about building resilient systems, reducing attack surfaces, and automating detection and response workflows.  
 Currently focused on **Microsoft Sentinel (SIEM)**, **Defender for Endpoint (EDR)**, and **vulnerability management automation** through **PowerShell**, **Python**, and **KQL**.  
