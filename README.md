@@ -1,103 +1,119 @@
-<!-- Optional banner (replace the URL with your own image) -->
-<p align="center">
-<img width="236" height="124" alt="09e06e93-02e0-49e5-9daa-c5da9fb6fa89" src="https://github.com/user-attachments/assets/f02c93a7-a246-4bf4-beec-37d6cb2c8e8c" />
+# 👋🏽 Hi, I'm **Javon McCloud**
 
+### 🛡️ Cybersecurity Engineer | Threat Analyst | SOC Automation Enthusiast | Governance, Risk and Cmpliance
+
+I’m a **Security & Threat Analyst** passionate about building resilient systems, reducing attack surfaces, and automating detection and response workflows.  
+Currently focused on **Microsoft Sentinel (SIEM)**, **Defender for Endpoint (EDR)**, and **vulnerability management automation** through **PowerShell**, **Python**, and **KQL**.  
+My goal is to engineer smarter, scalable defenses that enable organizations to **detect faster, respond intelligently, and secure continuously**.  
+
+---
+
+## 🧠 Core Skills & Technologies
+
+![Security](https://img.shields.io/badge/Security-BlueTeam-blue)
+![SIEM](https://img.shields.io/badge/Microsoft_Sentinel-%230078D4.svg?logo=microsoft&logoColor=white)
+![EDR](https://img.shields.io/badge/Microsoft_Defender-%234267B2.svg?logo=microsoft&logoColor=white)
+![Cloud](https://img.shields.io/badge/Azure-Security-blue)
+![Splunk](https://img.shields.io/badge/Splunk-SOC-black)
+![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
+![KQL](https://img.shields.io/badge/KQL-Query-brightgreen)
+![NIST](https://img.shields.io/badge/NIST-800--53-lightgrey)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-orange)
+![Linux](https://img.shields.io/badge/Linux-000000?logo=linux&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Actions-black?logo=githubactions&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk%20Dashboards-blue?logo=splunk&logoColor=white)
+
+**Areas of Focus:**
+- Security Operations (SIEM, EDR, Incident Response)
+- Vulnerability Management & Compliance (NIST, ISO 27001, CIS)
+- Detection Engineering & SOC Runbook Development
+- Threat Hunting, Log Analysis, and Automation Scripting
+
+---
+
+## 🧩 Featured Projects
+
+### 🔹 [Threat Hunting: Tor Browser Detection in Microsoft Sentinel](https://github.com/Mc-Cloud-Code-Cyber/Threat-Hunting-Tor-Browser-Usage)
+**Description:** Built a complete Sentinel detection pipeline to identify TOR browser activity across endpoints and networks.  
+**Tech Stack:** Microsoft Sentinel, KQL, Defender for Endpoint, MITRE ATT&CK  
+**Highlights:**
+- Correlated sign-in events, Defender alerts, and proxy logs to flag anomalies.  
+- Automated alert enrichment with Logic Apps for faster triage.  
+
+---
+
+### 🔹 [Full Vulnerability Management Program Implementation](https://github.com/Mc-Cloud-Code-Cyber/Vulnerability-Management-Program)
+**Description:** Developed a comprehensive vulnerability management framework integrating Tenable, PowerShell, and compliance mapping.  
+**Tech Stack:** PowerShell, Python, Tenable.io API, Excel Automation  
+**Highlights:**
+- Automated remediation scripts for Windows STIGs.  
+- Reduced critical vulnerability backlog by 100% in lab simulation.  
+
+---
+
+### 🔹 [Governance, Risk, and Compliance Framework Builder](https://github.com/Mc-Cloud-Code-Cyber/Governance-Risk-and-Compliance)
+**Description:** Built a modular GRC repository with NIST CSF 2.0, ISO 27001 controls, and audit-ready templates.  
+**Tech Stack:** Markdown, YAML, Compliance Frameworks  
+**Highlights:**
+- Includes reusable templates for policy documentation, risk register, and control mappings.  
+
+---
+
+### 🔹 [SOC Runbook Library](https://github.com/Mc-Cloud-Code-Cyber/SOC-Runbook-Library)
+**Description:** A structured collection of SOC playbooks and procedures spanning **Alert Triage**, **Incident Response**, **Threat Hunting**, **Automation**, and **Reporting**. Each runbook follows a consistent 7-section format (Scenario → Detection Source → Triage → Containment → Eradication & Recovery → Documentation & Escalation → Automation Potential) and maps to **MITRE ATT&CK** and **NIST SP 800-61**. :contentReference[oaicite:0]{index=0}  
+**Tech Stack:** Microsoft Sentinel (SIEM), Microsoft Defender (EDR/Identity/Cloud Apps), **KQL**, **Azure Logic Apps**, **PowerShell**, **Python**, Markdown. :contentReference[oaicite:1]{index=1}  
+**Highlights:**
+- **Folders:** `01_Alert-Triage`, `02_Incident-Response`, `03_Threat-Hunting`, `04_Automation-Playbooks`, `05_Reporting-And-Metrics`. :contentReference[oaicite:2]{index=2}
+- **Example IR Runbooks:** *Phishing-Incident*, *Malware-Execution*, *Privilege-Escalation*. :contentReference[oaicite:3]{index=3}
+- **Hunting KQL:** *Beaconing Detection*, *PowerShell Command Logging*, *Data Exfiltration over HTTP*. :contentReference[oaicite:4]{index=4}
+- **Automation Samples:** *Auto-Isolate Device* (Logic App), *Disable User Account* (PowerShell), *Alert Enrichment* (Function App). :contentReference[oaicite:5]{index=5}
+- **Reporting:** *Daily SOC Metrics Workbook* and *Incident Closure Report* template. :contentReference[oaicite:6]{index=6}
+
+
+---
+
+## 📊 GitHub & Activity Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mc-Cloud-Code-Cyber&show_icons=true&theme=tokyonight" alt="GitHub stats" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mc-Cloud-Code-Cyber&theme=tokyonight" alt="GitHub streak" height="160"/>
 </p>
 
-<h1><br/><a href="https://www.linkedin.com/in/javonmccloud/">Javon McCloud</a>, Code, and Cyber Project Portfolio🔐</h1> 
-
-This portfolio highlights hands-on work across **Data Protection, Vulnerability Management, SOC Operations, Automation,** and **Cloud/IT Security**. Each section links to personal projects that reflect my ability to investigate threats, strengthen defenses, and apply security best practices in a professional environment. Thank you for taking the time to visit my portfolio and allowing me to showcase my work.
-
----
-
-<!-- ## 🧰 Data Loss Prevention (DLP) Projects (Coming Soon) -->
-
-## 🛡️ Security Program Managment
-- **[Governance, Risk and Compliance](https://github.com/Mc-Cloud-Code-Cyber/Governance-Risk-and-Compliance)**
-
-## ⚠️ Vulnerability Management Projects
-- **[Vulnerability Management Program Implementation](https://github.com/Mc-Cloud-Code-Cyber/vulnerability-management-program)**
-- **[STIG Implementations Remediations (PowerShell)](https://github.com/Mc-Cloud-Code-Cyber/Mc-Cloud-Code-Cyber/tree/main/vulnerability-remediations-stigs/STIGS)**
-<!-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/Mc-Cloud-Code-Cyber/)**-->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mc-Cloud-Code-Cyber&layout=compact&theme=tokyonight" height="120"/>
+</p>
 
 ---
 
-## 🕵🏾 Threat Hunting Projects
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Mc-Cloud-Code-Cyber/threat-hunting-scenario-tor)**
+## 📬 Connect With Me
+
+- 💼 [**LinkedIn**](https://linkedin.com/in/javonmccloud)
+- 💻 [**GitHub**](https://github.com/Mc-Cloud-Code-Cyber)
+- 🌐 [**Portfolio Website**](#) _(Coming Soon)_
+- ✉️ **Email:** [jmccloud474@gmail.com](mailto:jmccloud474@gmail.com)
 
 ---
 
-##  SOC Blue Team
-- **[SOC Runbook Library](https://github.com/Mc-Cloud-Code-Cyber/SOC-Runbook-Library)**
-- **[Cybersecurity Resources](https://github.com/Mc-Cloud-Code-Cyber/Cybersecurity-Resources)**
+## 🤝 Let’s Collaborate
 
-<!-- ## ☁️ Cloud & IT Security Labs -->
- 
+I'm always open to:
+- 💬 Discussing **SOC automation and detection engineering**
+- 🧰 Collaborating on **blue team open-source tools**
+- 🧠 Sharing insights about **vulnerability management, threat intel, and compliance frameworks**
 
----
-
-# 🧪 Skills, Tools & Certs
-
-## 🔍 SIEM & Monitoring  
-- ![Splunk](https://img.shields.io/badge/-Splunk-000?logo=splunk) Log analysis, query building, detection rules  
-- ![Security Onion](https://img.shields.io/badge/-Security%20Onion-2b5797) IDS/NSM lab environment  
-- ![Sysmon](https://img.shields.io/badge/-Sysmon-4caf50) Windows event logging  
-
-## 📊 Vulnerability Management  
-- ![Tenable](https://img.shields.io/badge/-Tenable%20%7C%20Nessus-004d99) Authenticated scans, remediation validation  
-- ![OpenVAS](https://img.shields.io/badge/-OpenVAS-009639) Open-source vuln scanning  
-- Compliance & Benchmarking: **CIS Controls, DISA STIGs**  
-
-## 🚨 Detection & Response  
-- Snort / Suricata – network IDS concepts, rule writing  
-- EDR basics  
-- SOC Analyst workflow – triage, escalation, PBQ-style analysis  
-
-## 🖥️ Platforms & Virtualization  
-- ![VirtualBox](https://img.shields.io/badge/-VirtualBox-183A61?logo=virtualbox) Home lab, multi-VM networking  
-- ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux) Ubuntu, Kali – log parsing, scripting, network tools  
-- ![Windows](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows) GPO, registry, hardening  
-
-## ⚙️ Networking & Protocols  
-- Core: TCP/IP, Subnetting, VLANs, ACLs  
-- Services: DNS, DHCP, FTP, LDAP, RDP  
-- Protocols: ARP, ICMP, BGP  
-- Tools: **Wireshark / tcpdump** for packet analysis  
-
-## 🔐 Security Concepts & Frameworks  
-- Zero Trust, Network Segmentation  
-- CASB, SASE, SDN  
-- PKI & Certificates: SSL/TLS, DKIM, SPF, DMARC  
-- Incident Response: MTTD/MTTR, playbooks  
-- Frameworks: **NIST CSF, COBIT, OSSTMM, OWASP Top 10**  
-
-## 🛠️ Scripting & Automation  
-- ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnu-bash) Log parsing, automation
-
-# 📜 Certifications  
-
-- [![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-EE0000?logo=comptia&logoColor=white)](https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
-- [![CompTIA CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-004D99?logo=comptia&logoColor=white)](https://www.credly.com/badges/3cdc2953-3331-4c80-abe7-8d81e9b79090)  
-- [![CompTIA CSAP](https://img.shields.io/badge/CompTIA-CSAP-2b5797?logo=comptia&logoColor=white)](https://www.credly.com/badges/2ee87c51-269a-4339-8f2e-17354c1dca6d)  
----
-
-<!-- ## 🤝 Connect With Me
-
-
-[<img align="left" alt="___________ | Twitter" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]  
-[<img align="left" alt="___________ | LinkedIn" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]  
-[<img align="left" alt="___________ | Instagram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]  
-
-[twitter]: https://twitter.com/rastalavistah
-[instagram]: https://www.instagram.com/rastalavistah
-[linkedin]: https://linkedin.com/in/javonmccloud/
-
-<!--
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
--->
+👉 **Explore my repositories**, connect on LinkedIn, or reach out for collaboration!
 
 ---
-## Misc
-- **[Remediation Email Vulner. Lab](https://github.com/Mc-Cloud-Code-Cyber/Mc-Cloud-Code-Cyber/blob/main/remediation%20email)**
-```markdown
+
+##  A Bit About Me
+
+Outside of cybersecurity, I’m passionate about:
+- 🏋🏽‍♂️ Fitness & world-building gym content (245lb Max Bench)
+- 🌿 Lawn and Gardening (Coleus, Monstera Delicosa, Nepethenes 🌼)  
+- 🎮 Gaming & Comics
+- 📸 Videography and Photography (Sony A7SII - DJI Mini 4)
+
+> “Security isn’t a product—it’s a living process. Build it, test it, break it, then make it stronger.”
+
+---
