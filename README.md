@@ -5,7 +5,7 @@
 I’m a **Security & Threat Analyst** passionate about building resilient systems, reducing attack surfaces, and automating detection and response workflows.  
 Currently focused on **Microsoft Sentinel (SIEM)**, **Defender for Endpoint (EDR)**, and **vulnerability management automation** through **PowerShell**, **Python**, and **KQL**.  
 My goal is to engineer smarter, scalable defenses that enable organizations to **detect faster, respond intelligently, and secure continuously**.  
-
+I aim to unify technical security operations and human awareness, reducing social engineering risks and advancing organizational resilience through robust GRC compliance.  
 ---
 
 ## 🧠 Core Skills & Technologies
