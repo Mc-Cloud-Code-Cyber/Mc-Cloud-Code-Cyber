@@ -62,7 +62,7 @@ My goal is to engineer smarter, scalable defenses that enable organizations to *
 
 ### 🔹 [SOC Runbook Library](https://github.com/Mc-Cloud-Code-Cyber/SOC-Runbook-Library)
 **Description:** A structured collection of SOC playbooks and procedures spanning **Alert Triage**, **Incident Response**, **Threat Hunting**, **Automation**, and **Reporting**. Each runbook follows a consistent 7-section format (Scenario → Detection Source → Triage → Containment → Eradication & Recovery → Documentation & Escalation → Automation Potential) and maps to **MITRE ATT&CK** and **NIST SP 800-61**. 
-**Tech Stack:** Microsoft Sentinel (SIEM), Microsoft Defender (EDR/Identity/Cloud Apps), **KQL**, **Azure Logic Apps**, **PowerShell**, **Python**, Markdown.
+**Tech Stack:** Microsoft Sentinel (SIEM), Microsoft Defender (EDR/Identity/Cloud Apps), **KQL**, **Azure Logic Apps**, **PowerShell**, **Python**, Markdown.  
 **Highlights:**
 - **Folders:** `01_Alert-Triage`, `02_Incident-Response`, `03_Threat-Hunting`, `04_Automation-Playbooks`, `05_Reporting-And-Metrics`. 
 - **Example IR Runbooks:** *Phishing-Incident*, *Malware-Execution*, *Privilege-Escalation*. 
@@ -110,7 +110,7 @@ I'm always open to:
 
 Outside of cybersecurity, I’m passionate about:
 - 🏋🏽‍♂️ Fitness & world-building gym content (245lb Max Bench)
-- 🌿 Lawn and Gardening (Coleus, Monstera Delicosa, Nepethenes 🌼)  
+- 🌿 Lawn and Gardening (Coleus, Monstera Deliciosa, Nepethenes 🌼)  
 - 🎮 Gaming & Comics
 - 📸 Videography and Photography (Sony A7SII - DJI Mini 4)
 
