@@ -64,11 +64,11 @@ My goal is to engineer smarter, scalable defenses that enable organizations to *
 **Description:** A structured collection of SOC playbooks and procedures spanning **Alert Triage**, **Incident Response**, **Threat Hunting**, **Automation**, and **Reporting**. Each runbook follows a consistent 7-section format (Scenario → Detection Source → Triage → Containment → Eradication & Recovery → Documentation & Escalation → Automation Potential) and maps to **MITRE ATT&CK** and **NIST SP 800-61**. :contentReference[oaicite:0]{index=0}  
 **Tech Stack:** Microsoft Sentinel (SIEM), Microsoft Defender (EDR/Identity/Cloud Apps), **KQL**, **Azure Logic Apps**, **PowerShell**, **Python**, Markdown. :contentReference[oaicite:1]{index=1}  
 **Highlights:**
-- **Folders:** `01_Alert-Triage`, `02_Incident-Response`, `03_Threat-Hunting`, `04_Automation-Playbooks`, `05_Reporting-And-Metrics`. :contentReference[oaicite:2]{index=2}
-- **Example IR Runbooks:** *Phishing-Incident*, *Malware-Execution*, *Privilege-Escalation*. :contentReference[oaicite:3]{index=3}
-- **Hunting KQL:** *Beaconing Detection*, *PowerShell Command Logging*, *Data Exfiltration over HTTP*. :contentReference[oaicite:4]{index=4}
-- **Automation Samples:** *Auto-Isolate Device* (Logic App), *Disable User Account* (PowerShell), *Alert Enrichment* (Function App). :contentReference[oaicite:5]{index=5}
-- **Reporting:** *Daily SOC Metrics Workbook* and *Incident Closure Report* template. :contentReference[oaicite:6]{index=6}
+- **Folders:** `01_Alert-Triage`, `02_Incident-Response`, `03_Threat-Hunting`, `04_Automation-Playbooks`, `05_Reporting-And-Metrics`. 
+- **Example IR Runbooks:** *Phishing-Incident*, *Malware-Execution*, *Privilege-Escalation*. 
+- **Hunting KQL:** *Beaconing Detection*, *PowerShell Command Logging*, *Data Exfiltration over HTTP*. 
+- **Automation Samples:** *Auto-Isolate Device* (Logic App), *Disable User Account* (PowerShell), *Alert Enrichment* 
+- **Reporting:** *Daily SOC Metrics Workbook* and *Incident Closure Report* template. 
 
 
 ---
