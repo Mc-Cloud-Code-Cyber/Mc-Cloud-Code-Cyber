@@ -1,4 +1,4 @@
-# 👋🏽 What's good, I'm **Javon**
+# 👋🏽 What's up, I'm **Javon**
 
 ### 🛡️ Cybersecurity Engineer | Threat Analyst | SOC Automation Enthusiast | Governance, Risk and Compliance
 
