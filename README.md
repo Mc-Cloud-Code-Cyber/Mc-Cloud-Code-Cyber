@@ -37,7 +37,7 @@ I also aim to unify technical security operations and human awareness, reducing 
 
 ## 🧩 Featured Projects
 
-### 🔹 [Threat Hunting: Tor Browser Detection in Microsoft Sentinel](https://github.com/Mc-Cloud-Code-Cyber/Threat-Hunting-Tor-Browser-Usage)
+### 🔹 [Threat Hunting: Tor Browser Detection in Microsoft Sentinel](https://github.com/Mc-Cloud-Code-Cyber/threat-hunting-scenario-tor)
 **Description:** Built a complete Sentinel detection pipeline to identify TOR browser activity across endpoints and networks.  
 **Tech Stack:** Microsoft Sentinel, KQL, Defender for Endpoint, MITRE ATT&CK  
 **Highlights:**
